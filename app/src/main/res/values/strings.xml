@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">To Do</string>
+    <string name="addItem">Add an Item</string>
+    <string name="addButton">Add</string>
+    <string name="deleteButton">Delete</string>
+    <string name="clearButton">Clear</string>
+    <string name="header">My To Do List</string>
+
 </resources>
