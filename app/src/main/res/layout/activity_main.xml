@@ -27,7 +27,7 @@
 
         <Button
             style="?android:attr/borderlessButtonStyle"
-            android:id="@+id/add"
+            android:id="@+id/addButton"
             android:layout_width="wrap_content"
             android:background="@drawable/btn_round"
             android:textColor="@color/softGrey"
@@ -36,7 +36,7 @@
 
         <Button
             style="?android:attr/borderlessButtonStyle"
-            android:id="@+id/delete"
+            android:id="@+id/deleteButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/softGrey"
@@ -46,7 +46,7 @@
 
         <Button
             style="?android:attr/borderlessButtonStyle"
-            android:id="@+id/clear"
+            android:id="@+id/clearButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
@@ -56,7 +56,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/listHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/linearLayout1"
@@ -67,10 +67,10 @@
         android:textSize="20sp" />
 
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/toDoListView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_below="@id/textView1"
+        android:layout_below="@id/listHeader"
         android:choiceMode="multipleChoice"/>
 
 </RelativeLayout>
